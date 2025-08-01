@@ -1,1 +1,8 @@
-
+{
+  "temp_thresholds": [
+  { "temp": 35, "duty": 20 },
+  { "temp": 45, "duty": 40 },
+  { "temp": 55, "duty": 70 },
+  { "temp": 65, "duty": 100 }
+]
+}
