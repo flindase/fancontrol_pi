@@ -57,7 +57,7 @@ Visit `http://<your-pi-ip>:5000` in your browser to test.
 sudo cp fan-web.service /etc/systemd/system/
 ```
 
-> Make sure paths in `fan-web.service` match your system (e.g., `/home/ubuntu/fan-web/app.py`).
+> Make sure paths in `fan-web.service` match your system (e.g., `/home/ubuntu/fan-web/app.py`). Sometimes this can be tricky running as non-root (run as root to test if it is not working)
 
 ### 2. Enable and Start
 
@@ -138,3 +138,6 @@ MIT License
 - Graphs or dashboards
 - REST API
 - Mobile UI
+  
+
+
