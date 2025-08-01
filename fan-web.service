@@ -1,0 +1,13 @@
+[Unit]
+Description=Raspberry Pi Fan Web Controller
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/[user]/fan-web/app.py
+WorkingDirectory=/home/[user]/fan-web
+Restart=always
+User=[user]
+Environment=FLASK_ENV=production
+
+[Install]
+WantedBy=multi-user.target
